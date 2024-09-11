@@ -1,23 +1,23 @@
 const mayorOiguales=(a,b,c)=>{
     if(a>b && a>c){
-         document.write("el mayor es: ",a,"<br>")
+        return `el mayor es:  ${a} `;
     }else if(b>a && b>c){
-         document.write("el mayor es: ",b,"<br>")
+        return `el mayor es:  ${b} `;
     }else if(c>a && c>b){
-         document.write("el mayor es: ",c,"<br>")
+        return `el mayor es:  ${c} `;
     }
 
     
     if(a==b && b==c){
-        return document.write("los 3 numeros son iguales: ",a)
+        return `los 3 son iguales ${a} `;
     }else if(a==b){
-        return document.write("este numero se repite 2 veces: ",a)
+        return `${a} y ${b} son iguales. `;
     }else if(a==c){
-        return document.write("este numero se repite 2 veces: ",a)
+        return `${a} y ${c} son iguales. `;
     }if(c==b){
-        return document.write("este numero se repite 2 veces: ",b)
+        return `${b} y ${c} son iguales. `;
     }
 }
 
-const numeros= mayorOiguales(5,5,7);
+const numeros= mayorOiguales(12,6,5);
 document.write(numeros)
