@@ -19,5 +19,5 @@ const mayorOiguales=(a,b,c)=>{
     }
 }
 
-const numeros= mayor(5,5,7);
+const numeros= mayorOiguales(5,5,7);
 document.write(numeros)
